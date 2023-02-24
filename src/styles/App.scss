@@ -1,0 +1,50 @@
+
+@import './color.scss';
+
+.App {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+ 
+}
+
+footer {
+  background-color: $black;
+  color : $white;
+ 
+  .footer-container {
+    display: flex;
+    max-width: 110px;
+    justify-content: space-around;
+    margin: auto;
+  }
+}
+
+.app-navbar {
+display: flex;
+justify-content: space-between;
+background-color: $black;
+color: $white;
+align-items: center;
+padding: 1rem 2rem;
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+
+  .nav-links{
+    text-decoration: none;
+    color : $light;
+
+    &:hover {
+      color : $white;
+      font-size: 20px;
+      }
+    }
+
+}
+
+} 
