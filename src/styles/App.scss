@@ -42,9 +42,45 @@ padding: 1rem 2rem;
     &:hover {
       color : $white;
       font-size: 20px;
+   
+       }
       }
-    }
+     }
+    } 
+
+.section {
+  background-color: aqua;
+  padding: 2rem;
+  display: flex;
+justify-content: space-around;
 
 }
 
-} 
+.item {
+  background-color: #fff;
+  margin: 2rem;
+  img {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .item-text{
+  max-width: 25rem;
+ }
+}
+
+#home{
+  flex-grow: 1;
+}
+.swiper-slide{
+ 
+  height:30rem !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}

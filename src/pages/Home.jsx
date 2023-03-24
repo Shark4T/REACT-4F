@@ -1,8 +1,14 @@
-import React from "react";
+import React from 'react';
+import Slider from '../components/Slider';
+import SectionFlex from '../components/SectionFlex';
 
 const Home = () => {
     return (
-        <h1>HOME</h1>
+        <div id ='home'>
+            <Slider />
+        <SectionFlex/>
+        
+        </div>
     );
 };
 
